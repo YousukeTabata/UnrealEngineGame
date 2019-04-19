@@ -1,0 +1,753 @@
+﻿Log file open, 04/18/19 11:41:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DrAward
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.425060
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.266s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.18-02.41.10:498][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.18-02.41.10:498][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.18-02.41.10:512][  0]LogHAL: Display: Platform has ~ 16 GB [17022476288 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.18-02.41.10:512][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.18-02.41.10:512][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.18-02.41.10:514][  0]LogInit: Computer: DD371
+[2019.04.18-02.41.10:514][  0]LogInit: User: yosuketabata
+[2019.04.18-02.41.10:514][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.04.18-02.41.10:514][  0]LogInit: High frequency timer resolution =3.117189 MHz
+[2019.04.18-02.41.10:514][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.18-02.41.10:514][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.18-02.41.10:514][  0]LogMemory: Process Physical Memory: 102.95 MB used, 102.95 MB peak
+[2019.04.18-02.41.10:514][  0]LogMemory: Process Virtual Memory: 86.84 MB used, 86.84 MB peak
+[2019.04.18-02.41.10:514][  0]LogMemory: Physical Memory: 6135.69 MB used,  10098.21 MB free, 16233.90 MB total
+[2019.04.18-02.41.10:514][  0]LogMemory: Virtual Memory: 4675.02 MB used,  10098.21 MB free, 134217728.00 MB total
+[2019.04.18-02.41.10:540][  0]LogInit: Using OS detected language (ja-JP).
+[2019.04.18-02.41.10:540][  0]LogInit: Using OS detected locale (ja-JP).
+[2019.04.18-02.41.10:541][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2019.04.18-02.41.10:830][  0]LogStreaming: Display: Took  0.289s to InitEngineTextLocalization.
+[2019.04.18-02.41.10:830][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.18-02.41.10:883][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.18-02.41.10:883][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.18-02.41.12:037][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.18-02.41.12:037][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.18-02.41.12:051][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.04.18-02.41.12:051][  0]LogD3D11RHI:       128/0/8116 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.04.18-02.41.12:099][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.04.18-02.41.12:099][  0]LogD3D11RHI:       6061/0/8116 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.18-02.41.12:102][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.18-02.41.12:102][  0]LogD3D11RHI:       0/0/8116 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.18-02.41.12:102][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2019.04.18-02.41.12:107][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.18-02.41.12:107][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.18-02.41.12:107][  0]LogWindows: EnumDisplayDevices:
+[2019.04.18-02.41.12:107][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.04.18-02.41.12:107][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.04.18-02.41.12:108][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.04.18-02.41.12:108][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.04.18-02.41.12:108][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.18-02.41.12:108][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.18-02.41.12:108][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.18-02.41.12:108][  0]LogWindows:    7. 'mv video hook driver2' (P:0 D:0)
+[2019.04.18-02.41.12:108][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.04.18-02.41.12:108][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.04.18-02.41.12:108][  0]LogD3D11RHI:   Driver Version: 388.76 (internal:23.21.13.8876, unified:388.76)
+[2019.04.18-02.41.12:108][  0]LogD3D11RHI:      Driver Date: 12-22-2017
+[2019.04.18-02.41.12:108][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2019.04.18-02.41.12:135][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.18-02.41.12:145][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.18-02.41.12:188][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Study/Unreal Projects/DrAward/Intermediate/Shaders/WorkingDirectory/4344/).
+[2019.04.18-02.41.12:188][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tabata/AppData/Local/Temp/UnrealShaderWorkingDir/77E6F6854BB56D21C0C27BA331F7EA86/'.
+[2019.04.18-02.41.12:482][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.18-02.41.12:500][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.18-02.41.12:513][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.18-02.41.12:526][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.18-02.41.12:541][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.18-02.41.12:553][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.18-02.41.12:566][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.18-02.41.12:578][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.18-02.41.12:584][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:648][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.18-02.41.12:650][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.18-02.41.12:712][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.18-02.41.12:712][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.18-02.41.12:732][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.18-02.41.12:733][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.18-02.41.12:744][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.18-02.41.12:755][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.18-02.41.12:766][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.18-02.41.12:781][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.18-02.41.12:789][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.18-02.41.12:789][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.18-02.41.12:856][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.18-02.41.12:856][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.18-02.41.12:856][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.18-02.41.14:246][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.18-02.41.14:287][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/tabata/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.18-02.41.14:287][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tabata/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.18-02.41.14:287][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Study/Unreal Projects/DrAward/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.18-02.41.14:287][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.18-02.41.14:288][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Study/Unreal Projects/DrAward/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.18-02.41.14:288][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.18-02.41.14:301][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.18-02.41.14:316][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tabata/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.18-02.41.14:316][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.18-02.41.14:316][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.18-02.41.14:330][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.18-02.41.14:331][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.18-02.41.14:335][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.18-02.41.14:546][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2019.04.18-02.41.14:798][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.18-02.41.14:907][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.18-02.41.14:912][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.18-02.41.14:912][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.18-02.41.14:912][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.18-02.41.14:912][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.18-02.41.14:929][  0]LogNetVersion: DrAward 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1608842241)
+[2019.04.18-02.41.15:432][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.131993 seconds
+[2019.04.18-02.41.15:438][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.18-02.41.15:438][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.18-02.41.15:438][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.18-02.41.17:965][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.18-02.41.17:978][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.18-02.41.18:173][  0]SourceControl: ソースコントロールは無効です
+[2019.04.18-02.41.18:173][  0]SourceControl: ソースコントロールは無効です
+[2019.04.18-02.41.18:175][  0]SourceControl: ソースコントロールは無効です
+[2019.04.18-02.41.18:176][  0]SourceControl: ソースコントロールは無効です
+[2019.04.18-02.41.18:415][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.18-02.41.18:491][  0]LogOcInput: OculusInput pre-init called
+[2019.04.18-02.41.18:559][  0]LogEngine: Initializing Engine...
+[2019.04.18-02.41.18:561][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.18-02.41.18:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.18-02.41.18:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.18-02.41.18:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.18-02.41.18:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.18-02.41.18:774][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.18-02.41.18:785][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.18-02.41.18:795][  0]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-02.41.18:811][  0]LogInit: FAudioDevice initialized.
+[2019.04.18-02.41.18:811][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.18-02.41.18:933][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/tabata/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.18-02.41.18:946][  0]LogInit: Texture streaming: Enabled
+[2019.04.18-02.41.18:967][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.18-02.41.18:984][  0]LogInit: Transaction tracking system initialized
+[2019.04.18-02.41.19:006][  0]BlueprintLog: New page: エディタの読み込み
+[2019.04.18-02.41.19:091][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2019.04.18-02.41.19:432][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.18-02.41.19:432][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.18-02.41.19:432][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.18-02.41.19:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.18-02.41.19:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.18-02.41.19:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.18-02.41.19:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.18-02.41.19:591][  0]LogFileCache: Scanning file cache for directory 'D:/Study/Unreal Projects/DrAward/Content/' took 0.01s
+[2019.04.18-02.41.19:599][  0]SourceControl: ソースコントロールは無効です
+[2019.04.18-02.41.19:599][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.18-02.41.19:602][  0]LightingResults: New page: ライティングのビルド
+[2019.04.18-02.41.19:604][  0]MapCheck: New page: マップをチェック
+[2019.04.18-02.41.19:605][  0]LightingResults: New page: <何も選択されていません>
+[2019.04.18-02.41.19:785][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.18-02.41.19:790][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.18-02.41.19:811][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.18-02.41.19:945][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 134.838ミリ秒かかりました。
+[2019.04.18-02.41.19:945][  0]LogFileHelpers: Loading map 'Template_Default' took 0.347
+[2019.04.18-02.41.20:063][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-02.41.20:070][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-02.41.20:075][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-02.41.20:081][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-02.41.20:092][  0]LogCollectionManager: Loaded 0 collections in 0.001377 seconds
+[2019.04.18-02.41.20:137][  0]LogFileCache: Scanning file cache for directory 'D:/Study/Unreal Projects/DrAward/Saved/Collections/' took 0.01s
+[2019.04.18-02.41.20:137][  0]LogFileCache: Scanning file cache for directory 'D:/Study/Unreal Projects/DrAward/Content/Developers/yosuketabata/Collections/' took 0.01s
+[2019.04.18-02.41.20:137][  0]LogFileCache: Scanning file cache for directory 'D:/Study/Unreal Projects/DrAward/Content/Collections/' took 0.01s
+[2019.04.18-02.41.20:138][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.18-02.41.20:146][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2572 classes and 603 folders.
+[2019.04.18-02.41.20:155][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.18-02.41.20:426][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.18-02.41.20:461][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.04.18-02.41.20:506][  0]LogSlate: Took 0.002349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.18-02.41.20:509][  0]LogSlate: Took 0.002685 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
+[2019.04.18-02.41.20:512][  0]LogSlate: Took 0.002513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
+[2019.04.18-02.41.20:514][  0]LogSlate: Took 0.001849 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.18-02.41.20:523][  0]LogSlate: Took 0.004424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.18-02.41.20:592][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.18-02.41.20:747][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.18-02.41.20:747][  0]LogLoad: (Engine Initialization) Total time: 12.94 seconds
+[2019.04.18-02.41.20:747][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.18-02.41.20:766][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
+[2019.04.18-02.41.20:788][  0]LogAssetRegistry: Asset discovery search completed in 6.2658 seconds
+[2019.04.18-02.41.20:790][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.18-02.41.20:790][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2019.04.18-02.41.20:792][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.18-02.41.20:935][  0]LogSlate: Took 0.004759 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.18-02.41.21:789][ 96]LogSlate: Took 0.007700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
+[2019.04.18-02.41.21:789][ 96]LogSlate: Took 0.000429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.18-02.41.23:486][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-02.41.24:849][408]LogAIModule: Creating AISystem for world Main
+[2019.04.18-02.41.24:854][408]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Main.Main
+[2019.04.18-02.41.24:875][408]Cmd: MAP LOAD FILE="D:/Study/Unreal Projects/DrAward/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.18-02.41.24:875][408]LightingResults: New page: ライティングのビルド
+[2019.04.18-02.41.24:875][408]LoadErrors: New page: マップをロード中: Main.umap
+[2019.04.18-02.41.24:876][408]MapCheck: New page: マップをチェック
+[2019.04.18-02.41.24:876][408]LightingResults: New page: <何も選択されていません>
+[2019.04.18-02.41.24:905][408]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.18-02.41.24:949][408]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.18-02.41.25:098][408]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 148.181ミリ秒かかりました。
+[2019.04.18-02.41.25:099][408]LogFileHelpers: Loading map 'Main' took 0.225
+[2019.04.18-02.42.21:686][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-02.42.23:525][382]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/BP_Award.BP_Award
+[2019.04.18-02.42.23:946][382]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.04.18-02.42.24:595][382]LogSlate: Took 0.007763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-SemiBold.otf' (703K)
+[2019.04.18-02.42.24:600][382]LogSlate: Took 0.004075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.18-02.42.24:715][383]LogSlate: Took 0.004267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.18-02.42.29:762][970]LogSlate: Window 'BP_Award' being destroyed
+[2019.04.18-02.46.00:003][612]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-03.19.41:836][449]LogSlate: Took 0.015338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.04.18-03.20.54:625][911]LogEditorViewport: Clicking on Actor (LMB): BP_Award_C (BP_Award)
+[2019.04.18-03.20.55:931][ 52]Cmd: DELETE
+[2019.04.18-03.20.55:932][ 52]Cmd: ACTOR DELETE
+[2019.04.18-03.20.55:942][ 52]LogEditorActor: Deleted Actor: BP_Award_C
+[2019.04.18-03.20.55:974][ 52]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2019.04.18-03.20.58:716][381]Cmd: ACTOR SELECT ALL
+[2019.04.18-03.20.58:722][381]Cmd: TRANSACTION UNDO
+[2019.04.18-03.20.58:722][381]LogEditorTransaction: Undo すべて選択
+[2019.04.18-03.20.59:498][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_box16)
+[2019.04.18-03.20.59:758][496]Cmd: TRANSACTION UNDO
+[2019.04.18-03.20.59:758][496]LogEditorTransaction: Undo アクタをクリック
+[2019.04.18-03.21.00:272][556]Cmd: TRANSACTION UNDO
+[2019.04.18-03.21.00:272][556]LogEditorTransaction: Undo アクタを削除
+[2019.04.18-03.21.00:955][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-03.21.02:357][791]LogRenderer: Reallocating scene render targets to support 1268x712 Format 10 NumSamples 1 (Frame:1).
+[2019.04.18-03.21.05:350][141]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-03.21.05:664][179]BlueprintLog: New page: BP_Award をコンパイル
+[2019.04.18-03.21.32:540][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Maps/Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.04.18-03.21.32:690][542]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/Main_Auto126FA87074A5F2DF1162499A993854D1B.tmp' to 'D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2019.04.18-03.21.32:694][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.208
+[2019.04.18-03.21.32:694][542]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.208
+[2019.04.18-03.21.32:696][542]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Award] ([1] browsable assets)...
+[2019.04.18-03.21.32:731][542]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Award.BP_Award]
+[2019.04.18-03.21.32:731][542]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Award]
+[2019.04.18-03.21.32:731][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Award" FILE="D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Blueprint/BP_Award_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.04.18-03.21.32:756][542]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/BP_Award_Auto1E952E4994EEAD91696B2CAA6692772A7.tmp' to 'D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Blueprint/BP_Award_Auto1.uasset'
+[2019.04.18-03.21.32:757][542]LogFileHelpers: Auto-saving content packages took 0.062
+[2019.04.18-03.22.10:403][314]LogEditorTransaction: Undo コンポーネントを取り除く
+[2019.04.18-03.22.10:408][314]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_0:PersistentLevel.BP_Award_C_0.CollisionCylinder) Component already registered.
+[2019.04.18-03.22.10:408][314]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Main.Main:PersistentLevel.BP_Award_2.CharacterMesh0) Component already registered.
+[2019.04.18-03.22.10:408][314]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_0:PersistentLevel.BP_Award_C_0.CharacterMesh0) Component already registered.
+[2019.04.18-03.22.10:409][314]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Main.Main:PersistentLevel.BP_Award_2.CollisionCylinder) Component already registered.
+[2019.04.18-03.23.07:937][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-03.23.08:367][890]BlueprintLog: New page: BP_Award をコンパイル
+[2019.04.18-03.25.13:388][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-03.26.47:666][402]BlueprintLog: New page: BP_Award をコンパイル
+[2019.04.18-03.27.01:691][624]BlueprintLog: New page: BP_Award をコンパイル
+[2019.04.18-03.27.03:551][816]LogTemp: Repeating last play command: シミュレート
+[2019.04.18-03.27.03:570][816]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-03.27.03:570][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-03.27.03:583][816]PIE: New page: SIEセッション: Main (2019/04/18 21:27:03)
+[2019.04.18-03.27.03:583][816]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-03.27.03:588][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005015s)
+[2019.04.18-03.27.03:589][816]LogAIModule: Creating AISystem for world Main
+[2019.04.18-03.27.03:589][816]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2019.04.18-03.27.03:589][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005898s)
+[2019.04.18-03.27.03:615][816]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-03.27.03:628][816]LogInit: FAudioDevice initialized.
+[2019.04.18-03.27.03:680][816]LogLoad: Game class is 'GameModeBase'
+[2019.04.18-03.27.03:695][816]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-12.27.03
+[2019.04.18-03.27.03:699][816]LogWorld: Bringing up level for play took: 0.012709
+[2019.04.18-03.27.03:755][816]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.04.18-03.27.03:756][816]PIE: /Game/Maps/UEDPIE_0_Main -0.075のプレイ イン エディタの開始時間
+[2019.04.18-03.27.03:799][816]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-03.27.09:027][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-03.27.09:137][444]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-03.27.09:138][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-03.27.09:173][444]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-03.27.09:173][444]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-03.27.09:201][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-03.27.09:240][448]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.04.18-03.27.10:282][573]LogEditorViewport: Clicking on Actor (LMB): BP_Award_C (BP_Award)
+[2019.04.18-03.31.38:624][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Maps/Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.04.18-03.31.38:769][707]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/Main_Auto241C07296437549D0A508BBAE7B0E74AF.tmp' to 'D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Maps/Main_Auto2.umap'
+[2019.04.18-03.31.38:772][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.170
+[2019.04.18-03.31.38:772][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.170
+[2019.04.18-03.31.38:773][707]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Award] ([1] browsable assets)...
+[2019.04.18-03.31.38:797][707]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Award.BP_Award]
+[2019.04.18-03.31.38:797][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Award]
+[2019.04.18-03.31.38:797][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Award" FILE="D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Blueprint/BP_Award_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.04.18-03.31.38:913][707]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/BP_Award_Auto2675FB2C54E201C8B120F0994D9D33A54.tmp' to 'D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Blueprint/BP_Award_Auto2.uasset'
+[2019.04.18-03.31.38:915][707]LogFileHelpers: Auto-saving content packages took 0.142
+[2019.04.18-05.41.11:496][914]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.04.18-11.17.03:559][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane70)
+[2019.04.18-11.17.03:918][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane70)
+[2019.04.18-11.17.04:373][128]LogEditorViewport: Clicking on Actor (LMB): BP_Award_C (BP_Award)
+[2019.04.18-11.17.15:074][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-11.18.02:847][755]BlueprintLog: New page: BP_Award をコンパイル
+[2019.04.18-11.18.55:991][ 94]LogTemp: Repeating last play command: シミュレート
+[2019.04.18-11.18.56:012][ 94]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.18.56:013][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-11.18.56:013][ 94]PIE: New page: SIEセッション: Main (2019/04/19 5:18:56)
+[2019.04.18-11.18.56:013][ 94]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-11.18.56:019][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005722s)
+[2019.04.18-11.18.56:019][ 94]LogAIModule: Creating AISystem for world Main
+[2019.04.18-11.18.56:020][ 94]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2019.04.18-11.18.56:020][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.006848s)
+[2019.04.18-11.18.56:047][ 94]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-11.18.56:059][ 94]LogInit: FAudioDevice initialized.
+[2019.04.18-11.18.56:097][ 94]LogLoad: Game class is 'GameModeBase'
+[2019.04.18-11.18.56:109][ 94]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-20.18.56
+[2019.04.18-11.18.56:111][ 94]LogWorld: Bringing up level for play took: 0.010466
+[2019.04.18-11.18.56:126][ 94]PIE: /Game/Maps/UEDPIE_0_Main -0.386のプレイ イン エディタの開始時間
+[2019.04.18-11.18.56:167][ 94]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.19.02:368][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-11.19.02:478][830]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.19.02:478][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.19.02:511][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-11.19.02:512][830]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.19.02:534][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.19.02:582][835]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.04.18-11.19.54:857][674]BlueprintLog: New page: BP_Award をコンパイル
+[2019.04.18-11.19.56:479][852]LogTemp: Repeating last play command: シミュレート
+[2019.04.18-11.19.56:500][852]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.19.56:500][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-11.19.56:500][852]PIE: New page: SIEセッション: Main (2019/04/19 5:19:56)
+[2019.04.18-11.19.56:500][852]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-11.19.56:505][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005239s)
+[2019.04.18-11.19.56:506][852]LogAIModule: Creating AISystem for world Main
+[2019.04.18-11.19.56:506][852]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2019.04.18-11.19.56:506][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.006048s)
+[2019.04.18-11.19.56:533][852]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-11.19.56:546][852]LogInit: FAudioDevice initialized.
+[2019.04.18-11.19.56:576][852]LogLoad: Game class is 'GameModeBase'
+[2019.04.18-11.19.56:578][852]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-20.19.56
+[2019.04.18-11.19.56:579][852]LogWorld: Bringing up level for play took: 0.002239
+[2019.04.18-11.19.56:590][852]PIE: /Game/Maps/UEDPIE_0_Main 0.082のプレイ イン エディタの開始時間
+[2019.04.18-11.19.56:592][852]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.19.59:695][224]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.19.59:695][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.19.59:729][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-11.19.59:730][224]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.19.59:757][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.19.59:795][228]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.04.18-11.20.05:950][965]LogEditorViewport: Clicking on Actor (LMB): BP_Award_C (BP_Award)
+[2019.04.18-11.20.09:531][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-11.20.48:738][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Maps/Main_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.04.18-11.20.48:887][983]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/Main_Auto3718D39474160F80503D7EA95702590AB.tmp' to 'D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Maps/Main_Auto3.umap'
+[2019.04.18-11.20.48:890][983]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.177
+[2019.04.18-11.20.48:890][983]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.177
+[2019.04.18-11.20.48:891][983]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Award] ([1] browsable assets)...
+[2019.04.18-11.20.48:901][983]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Award.BP_Award]
+[2019.04.18-11.20.48:901][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Award]
+[2019.04.18-11.20.48:901][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Award" FILE="D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Blueprint/BP_Award_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2019.04.18-11.20.48:990][983]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/BP_Award_Auto3AFB266CE4014DE1FC57D6B9313E68588.tmp' to 'D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Blueprint/BP_Award_Auto3.uasset'
+[2019.04.18-11.20.48:991][983]LogFileHelpers: Auto-saving content packages took 0.099
+[2019.04.18-11.21.31:727][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_box15)
+[2019.04.18-11.21.34:442][595]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.18-11.43.43:779][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane70)
+[2019.04.18-11.43.56:849][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-11.44.02:298][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-11.44.15:929][991]BlueprintLog: New page: BP_Award をコンパイル
+[2019.04.18-11.44.17:300][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane70)
+[2019.04.18-11.44.18:614][295]LogEditorViewport: Clicking on Actor (LMB): BP_Award_C (BP_Award)
+[2019.04.18-11.44.19:375][379]Cmd: DELETE
+[2019.04.18-11.44.19:375][379]Cmd: ACTOR DELETE
+[2019.04.18-11.44.19:378][379]LogEditorActor: Deleted Actor: BP_Award_C
+[2019.04.18-11.44.19:405][379]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.04.18-11.44.28:529][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane39)
+[2019.04.18-11.44.29:301][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (plane38)
+[2019.04.18-11.44.29:989][638]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.04.18-11.44.35:656][314]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.18-11.44.37:302][510]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.18-11.44.38:038][597]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.04.18-11.44.55:210][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.18-11.44.57:028][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.18-11.44.57:967][ 34]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.18-11.44.58:305][ 62]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrAward
+[2019.04.18-11.44.58:306][ 62]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.04.18-11.44.58:306][ 62]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.04.18-11.44.58:306][ 62]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.04.18-11.44.58:313][ 63]LogTemp: BranchPath = DD371/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DD371/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.04.18-11.44.58:330][ 65]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tabata\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.18-11.45.01:360][412]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.18-11.46.28:032][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Maps/Main_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.04.18-11.46.28:235][458]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/Main_Auto422FB54FF42AF684CA358F58EF82B47FC.tmp' to 'D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Maps/Main_Auto4.umap'
+[2019.04.18-11.46.28:239][458]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.233
+[2019.04.18-11.46.28:239][458]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.233
+[2019.04.18-11.46.28:240][458]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/BP_Award] ([1] browsable assets)...
+[2019.04.18-11.46.28:248][458]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/BP_Award.BP_Award]
+[2019.04.18-11.46.28:249][458]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/BP_Award]
+[2019.04.18-11.46.28:249][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Award" FILE="D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Blueprint/BP_Award_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2019.04.18-11.46.28:270][458]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/BP_Award_Auto4283E44F2477B73A59DA17DB89168F3A2.tmp' to 'D:/Study/Unreal Projects/DrAward/Saved/Autosaves/Game/Blueprint/BP_Award_Auto4.uasset'
+[2019.04.18-11.46.28:271][458]LogFileHelpers: Auto-saving content packages took 0.032
+[2019.04.18-11.46.28:592][495]LogSlate: Window 'プロジェクト設定' being destroyed
+[2019.04.18-11.46.28:595][495]LogSlate: Window 'プロジェクト設定' being destroyed
+[2019.04.18-11.46.48:389][845]LogSlate: Window '親クラスを選択' being destroyed
+[2019.04.18-11.47.01:565][260]LogSlate: Window '親クラスを選択' being destroyed
+[2019.04.18-11.47.09:132][162]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprint/BP_AwardGameMode.BP_AwardGameMode
+[2019.04.18-11.47.20:406][477]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.18-11.47.39:434][654]BlueprintLog: New page: BP_AwardGameMode をコンパイル
+[2019.04.18-11.47.49:322][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_box)
+[2019.04.18-11.47.50:436][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-11.47.54:527][444]LogTemp: Repeating last play command: シミュレート
+[2019.04.18-11.47.54:548][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.47.54:548][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-11.47.54:548][444]PIE: New page: SIEセッション: Main (2019/04/19 5:47:54)
+[2019.04.18-11.47.54:548][444]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-11.47.54:553][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004638s)
+[2019.04.18-11.47.54:553][444]LogAIModule: Creating AISystem for world Main
+[2019.04.18-11.47.54:554][444]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2019.04.18-11.47.54:554][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005410s)
+[2019.04.18-11.47.54:582][444]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-11.47.54:596][444]LogInit: FAudioDevice initialized.
+[2019.04.18-11.47.54:626][444]LogLoad: Game class is 'GameModeBase'
+[2019.04.18-11.47.54:629][444]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-20.47.54
+[2019.04.18-11.47.54:629][444]LogWorld: Bringing up level for play took: 0.002223
+[2019.04.18-11.47.54:642][444]PIE: /Game/Maps/UEDPIE_0_Main 0.196のプレイ イン エディタの開始時間
+[2019.04.18-11.47.54:659][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.01:609][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-11.48.01:718][246]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.01:719][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.48.01:751][246]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-11.48.01:752][246]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.01:779][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.48.01:817][250]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.18-11.48.04:007][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-11.48.04:123][526]LogTemp: Repeating last play command: シミュレート
+[2019.04.18-11.48.04:144][526]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.04:144][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-11.48.04:144][526]PIE: New page: SIEセッション: Main (2019/04/19 5:48:04)
+[2019.04.18-11.48.04:144][526]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-11.48.04:149][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004492s)
+[2019.04.18-11.48.04:149][526]LogAIModule: Creating AISystem for world Main
+[2019.04.18-11.48.04:149][526]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2019.04.18-11.48.04:149][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005090s)
+[2019.04.18-11.48.04:177][526]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-11.48.04:189][526]LogInit: FAudioDevice initialized.
+[2019.04.18-11.48.04:221][526]LogLoad: Game class is 'GameModeBase'
+[2019.04.18-11.48.04:223][526]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-20.48.04
+[2019.04.18-11.48.04:223][526]LogWorld: Bringing up level for play took: 0.001739
+[2019.04.18-11.48.04:236][526]PIE: /Game/Maps/UEDPIE_0_Main -0.21のプレイ イン エディタの開始時間
+[2019.04.18-11.48.04:237][526]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.05:715][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.05:715][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.48.05:745][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-11.48.05:746][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.05:773][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.48.05:821][708]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.04.18-11.48.30:230][631]LogTemp: Repeating last play command: シミュレート
+[2019.04.18-11.48.30:251][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.30:251][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-11.48.30:251][631]PIE: New page: SIEセッション: Main (2019/04/19 5:48:30)
+[2019.04.18-11.48.30:251][631]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-11.48.30:256][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004578s)
+[2019.04.18-11.48.30:257][631]LogAIModule: Creating AISystem for world Main
+[2019.04.18-11.48.30:257][631]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2019.04.18-11.48.30:257][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005557s)
+[2019.04.18-11.48.30:288][631]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-11.48.30:301][631]LogInit: FAudioDevice initialized.
+[2019.04.18-11.48.30:329][631]LogLoad: Game class is 'GameModeBase'
+[2019.04.18-11.48.30:332][631]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-20.48.30
+[2019.04.18-11.48.30:332][631]LogWorld: Bringing up level for play took: 0.001884
+[2019.04.18-11.48.30:345][631]PIE: /Game/Maps/UEDPIE_0_Main -0.101のプレイ イン エディタの開始時間
+[2019.04.18-11.48.30:347][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.33:296][985]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.33:296][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.48.33:324][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-11.48.33:324][985]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.48.33:351][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.48.33:401][991]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.04.18-11.49.03:603][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_AwardGameMode" FILE="D:/Study/Unreal Projects/DrAward/Content/Blueprint/BP_AwardGameMode.uasset" SILENT=true
+[2019.04.18-11.49.03:611][ 14]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/BP_AwardGameModeFCD6BB0145FA9A79F407A99223B86E88.tmp' to 'D:/Study/Unreal Projects/DrAward/Content/Blueprint/BP_AwardGameMode.uasset'
+[2019.04.18-11.49.05:551][230]LogTemp: Repeating last play command: シミュレート
+[2019.04.18-11.49.05:572][230]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.49.05:572][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-11.49.05:572][230]PIE: New page: SIEセッション: Main (2019/04/19 5:49:05)
+[2019.04.18-11.49.05:572][230]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-11.49.05:578][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005457s)
+[2019.04.18-11.49.05:578][230]LogAIModule: Creating AISystem for world Main
+[2019.04.18-11.49.05:578][230]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2019.04.18-11.49.05:578][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.006121s)
+[2019.04.18-11.49.05:608][230]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-11.49.05:620][230]LogInit: FAudioDevice initialized.
+[2019.04.18-11.49.05:651][230]LogLoad: Game class is 'GameModeBase'
+[2019.04.18-11.49.05:654][230]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-20.49.05
+[2019.04.18-11.49.05:654][230]LogWorld: Bringing up level for play took: 0.001850
+[2019.04.18-11.49.05:666][230]PIE: /Game/Maps/UEDPIE_0_Main -0.778のプレイ イン エディタの開始時間
+[2019.04.18-11.49.05:668][230]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.49.06:491][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.49.06:491][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.49.06:521][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-11.49.06:521][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.49.06:551][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.49.06:592][334]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.04.18-11.49.13:504][967]LogSlate: Window 'コンテンツを保存' being destroyed
+[2019.04.18-11.49.13:522][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_Award" FILE="D:/Study/Unreal Projects/DrAward/Content/Blueprint/BP_Award.uasset" SILENT=true
+[2019.04.18-11.49.13:535][967]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/BP_Award640CC3C444F729B3BD4E21A483AD02DF.tmp' to 'D:/Study/Unreal Projects/DrAward/Content/Blueprint/BP_Award.uasset'
+[2019.04.18-11.49.13:543][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/BP_AwardController" FILE="D:/Study/Unreal Projects/DrAward/Content/Blueprint/BP_AwardController.uasset" SILENT=true
+[2019.04.18-11.49.13:551][967]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/BP_AwardControllerFB4E97474D8EFE80C0A99493A2346B1B.tmp' to 'D:/Study/Unreal Projects/DrAward/Content/Blueprint/BP_AwardController.uasset'
+[2019.04.18-11.49.14:004][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/Study/Unreal Projects/DrAward/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.18-11.49.14:167][967]LogSavePackage: Moving 'D:/Study/Unreal Projects/DrAward/Saved/Main161BA75A415065A9FFEA2696049130A9.tmp' to 'D:/Study/Unreal Projects/DrAward/Content/Maps/Main.umap'
+[2019.04.18-11.49.14:198][967]LogFileHelpers: Saving map 'Main' took 0.642
+[2019.04.18-11.49.15:282][ 96]LogTemp: Repeating last play command: スタンドアローンゲーム
+[2019.04.18-11.49.43:923][926]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.49.43:923][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-11.49.43:923][926]PIE: New page: PIEセッション: Main (2019/04/19 5:49:43)
+[2019.04.18-11.49.43:923][926]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-11.49.43:928][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004534s)
+[2019.04.18-11.49.43:928][926]LogAIModule: Creating AISystem for world Main
+[2019.04.18-11.49.43:928][926]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2019.04.18-11.49.43:929][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005169s)
+[2019.04.18-11.49.43:956][926]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-11.49.43:968][926]LogInit: FAudioDevice initialized.
+[2019.04.18-11.49.43:975][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.49.44:014][926]LogLoad: Game class is 'GameModeBase'
+[2019.04.18-11.49.44:016][926]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-20.49.44
+[2019.04.18-11.49.44:016][926]LogWorld: Bringing up level for play took: 0.001796
+[2019.04.18-11.49.44:029][926]PIE: /Game/Maps/UEDPIE_0_Main -0.415のプレイ イン エディタの開始時間
+[2019.04.18-11.49.44:029][926]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.49.44:037][926]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.04.18-11.50.13:865][134]Cmd: togglede
+[2019.04.18-11.50.13:865][134]Command not recognized: togglede
+[2019.04.18-11.50.13:865][134]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.18-11.50.20:006][868]Cmd: ToggleDebugCamera
+[2019.04.18-11.50.20:006][868]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.18-11.51.01:267][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.01:267][818]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.51.01:287][818]LogSlate: Window 'DrAward ゲームプレビュー Standalone (64-ビット/PCD3D_SM5)' being destroyed
+[2019.04.18-11.51.01:324][818]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-11.51.01:324][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.01:608][819]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.04.18-11.51.08:433][125]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.18-11.51.08:508][126]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrAward
+[2019.04.18-11.51.08:508][126]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.04.18-11.51.08:508][126]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.04.18-11.51.08:508][126]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.04.18-11.51.08:525][127]LogTemp: BranchPath = DD371/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DD371/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.04.18-11.51.08:539][128]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\tabata\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.04.18-11.51.10:939][406]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.18-11.51.16:959][112]LogSlate: Window 'プロジェクト設定' being destroyed
+[2019.04.18-11.51.16:965][112]LogSlate: Window 'プロジェクト設定' being destroyed
+[2019.04.18-11.51.18:308][271]LogTemp: Repeating last play command: 選択ビューポート
+[2019.04.18-11.51.18:330][271]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.18:330][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-11.51.18:330][271]PIE: New page: PIEセッション: Main (2019/04/19 5:51:18)
+[2019.04.18-11.51.18:330][271]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-11.51.18:334][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004132s)
+[2019.04.18-11.51.18:335][271]LogAIModule: Creating AISystem for world Main
+[2019.04.18-11.51.18:335][271]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2019.04.18-11.51.18:335][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004830s)
+[2019.04.18-11.51.18:360][271]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-11.51.18:372][271]LogInit: FAudioDevice initialized.
+[2019.04.18-11.51.18:402][271]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2019.04.18-11.51.18:404][271]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-20.51.18
+[2019.04.18-11.51.18:405][271]LogWorld: Bringing up level for play took: 0.001951
+[2019.04.18-11.51.18:417][271]PIE: /Game/Maps/UEDPIE_0_Main -0.024のプレイ イン エディタの開始時間
+[2019.04.18-11.51.18:417][271]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.28:621][494]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.28:621][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.51.28:652][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-11.51.28:653][494]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.28:678][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.51.28:722][497]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.04.18-11.51.30:579][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.18-11.51.30:654][728]LogTemp: Repeating last play command: 選択ビューポート
+[2019.04.18-11.51.30:676][728]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.30:676][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-11.51.30:676][728]PIE: New page: PIEセッション: Main (2019/04/19 5:51:30)
+[2019.04.18-11.51.30:676][728]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-11.51.30:681][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004380s)
+[2019.04.18-11.51.30:681][728]LogAIModule: Creating AISystem for world Main
+[2019.04.18-11.51.30:681][728]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2019.04.18-11.51.30:681][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005046s)
+[2019.04.18-11.51.30:712][728]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-11.51.30:724][728]LogInit: FAudioDevice initialized.
+[2019.04.18-11.51.30:758][728]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2019.04.18-11.51.30:760][728]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-20.51.30
+[2019.04.18-11.51.30:760][728]LogWorld: Bringing up level for play took: 0.001805
+[2019.04.18-11.51.30:773][728]PIE: /Game/Maps/UEDPIE_0_Main 0.332のプレイ イン エディタの開始時間
+[2019.04.18-11.51.30:773][728]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.34:071][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.34:071][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.51.34:106][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-11.51.34:107][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.34:133][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.51.34:171][127]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.04.18-11.51.34:804][203]LogTemp: Repeating last play command: 選択ビューポート
+[2019.04.18-11.51.34:828][203]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.51.34:828][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.18-11.51.34:828][203]PIE: New page: PIEセッション: Main (2019/04/19 5:51:34)
+[2019.04.18-11.51.34:828][203]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2019.04.18-11.51.34:832][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004402s)
+[2019.04.18-11.51.34:833][203]LogAIModule: Creating AISystem for world Main
+[2019.04.18-11.51.34:833][203]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2019.04.18-11.51.34:833][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005051s)
+[2019.04.18-11.51.34:861][203]LogInit: XAudio2 using 'スピーカー (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.18-11.51.34:874][203]LogInit: FAudioDevice initialized.
+[2019.04.18-11.51.34:906][203]LogLoad: Game class is 'BP_AwardGameMode_C'
+[2019.04.18-11.51.34:908][203]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2019.04.18-20.51.34
+[2019.04.18-11.51.34:908][203]LogWorld: Bringing up level for play took: 0.001750
+[2019.04.18-11.51.34:921][203]PIE: /Game/Maps/UEDPIE_0_Main 0.48のプレイ イン エディタの開始時間
+[2019.04.18-11.51.34:921][203]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.52.00:918][839]Cmd: ToggleDebugCamera
+[2019.04.18-11.52.00:918][839]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.18-11.52.33:405][735]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.52.33:406][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.52.33:437][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.18-11.52.33:437][735]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2019.04.18-11.52.33:463][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.18-11.52.33:509][738]LogPlayLevel: Display: Destroying online subsystem :Context_18
